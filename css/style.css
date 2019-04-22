@@ -1,46 +1,37 @@
 body {
     background-image: url(../assets/images/purty_wood.png);
 }
-
-header {
-    height: 100px;
-    background-color: whitesmoke;
-    border-bottom: 5px solid;
-    border-bottom-color: tomato;
+.navbar-default {
+    background-color: #212121;
 }
-
-.header-box {
-    background-color: tomato;
-    width: 250px;
-    height: 100px;
-    float: left;
-    margin-left: 194px;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24pt;
-    font-weight: bold;
+.navbar-brand {
+    font-size: 16pt;
     color: whitesmoke;
-
 }
+
+li {
+    margin: 10px;
+}
+
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 20px;
-    color: tomato;
+    font-size: 18pt;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #212121;
 }
 
 footer {
-    background-color: whitesmoke;
+    background-color: #212121;
     width: 100%;
     height: 75px;
     justify-content: space-between;
     border-top: 5px solid;
-    border-top-color: tomato;
+    border-top-color:whitesmoke;
 }
+
 h3 {
-    color: tomato;
+    color: whitesmoke;
     text-align: center;
     font-size: 9pt;
     padding-top: 50px;
